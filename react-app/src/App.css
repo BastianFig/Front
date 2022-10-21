@@ -1,0 +1,91 @@
+/* lo principal
+
+*/
+
+.App {
+  text-align: center;
+  background-color: #fff;
+  width: 100%;
+  height: 100vh;
+
+  
+}
+
+.App .principal .card-group{
+  margin-top: 40px;
+}
+.App .principal{
+  width: 100%;
+  height: 100vh;
+
+}
+.App .principal .featurette-divider{
+  margin-top: 40px;
+}
+
+.carousel-inner{
+  height: 50vh;
+  width: 100px;
+
+}
+
+
+
+/* css que van al formulario
+*/
+.formulario .card-group{
+  margin-top: 60px;
+  position: relative;
+
+}
+.container{
+  margin-top: 60px;
+  align-items: center;
+  justify-content: center;
+  display: center;
+  position: center;
+  max-width: 400px;
+  width: 100%;
+  background-color: #fff;
+  box-shadow: 0 5 px 10px rgba(0, 0,0, 0.1);
+  border-radius: 20px;
+
+}
+
+
+
+.container .formulario{
+  padding: 20px;
+
+}
+
+.container .formulario .title{
+  position: relative;
+  font-size: 27px;
+  font-weight: 600;
+  margin-top: 10px;
+  
+  
+
+}
+
+
+
+
+/* css que van al formulario hasta aca
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
