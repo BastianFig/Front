@@ -8,7 +8,6 @@ import {BrowserRouter as Router,Routes,Route} from 'react-router-dom'
 import Prin from './compo/Principal';
 
 
-
 function App () {
   return (
     
@@ -16,15 +15,19 @@ function App () {
         
         
         <Router>
-        <Admin/>
+        <Admin/> 
+        
+        
           <Routes>
-          <Route path="/Principal"  element={<Prin/>}/>
+          <Route path="/"  element={<Prin/>}/>
             <Route path="/Sesion"  element={<Sesionn/>}/>
             <Route path="/Formulario"  element={<Formu/>}/>
             <Route path="/Somos"  element={<Somoss/>}/>
+            <Route path="/Principal"  element={<Prin/>}/>
 
 
           </Routes>
+          
 
         </Router>
         

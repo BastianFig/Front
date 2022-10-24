@@ -5,34 +5,61 @@
 .App {
   text-align: center;
   background-color: #fff;
-  width: 100%;
+  width: auto;
+  height: auto;
+
+}
+
+.App .principal .carousel-inner{
   height: 100vh;
+  width: auto;
 
-  
 }
 
-.App .principal .card-group{
-  margin-top: 40px;
-}
+
 .App .principal{
-  width: 100%;
+  width: auto;
   height: 100vh;
 
 }
-.App .principal .featurette-divider{
-  margin-top: 40px;
+
+.card{
+  margin-top: 20px;
+  position: center;
+  width: 50%;
 }
 
-.carousel-inner{
-  height: 50vh;
-  width: 100px;
 
+
+
+
+/*.hola{
+  position: center;
+  display: center;
+  width: 30%;
+  height: 100px;
+  margin-top: 50px;
+
+}*/
+
+
+/* css que van al SESSION
+*/
+
+.Sessionn .chao{
+  margin-top: 100px;
+}
+
+.principal .chao{
+  margin-top: 40px;
 }
 
 
 
 /* css que van al formulario
 */
+
+
 .formulario .card-group{
   margin-top: 60px;
   position: relative;
@@ -46,11 +73,13 @@
   position: center;
   max-width: 400px;
   width: 100%;
-  background-color: #fff;
+  background-color: #f4f4f4;
   box-shadow: 0 5 px 10px rgba(0, 0,0, 0.1);
   border-radius: 20px;
 
 }
+
+
 
 
 
