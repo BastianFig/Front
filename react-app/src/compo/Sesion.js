@@ -73,10 +73,12 @@ const Sesionn =() => {
                     <div className="box">
                       <h2>SOBRE NOSOTROS</h2>
                       <p>
-                        Bienvenidos a trasportes Jcu somos una empresa dedicada al transporte de weones
+                      Bienvenidos a trasportes Jcu somos una empresa dedicada al
+                      transporte privado y particular.
                       </p>
+                        
                       <p>
-                        Grande Colocolo
+                      Contactanos al +56990201831
                       </p>
                     </div>
                     <div className="box">

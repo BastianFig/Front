@@ -12,6 +12,7 @@ const Prin =() => {
 >
   <div className="carousel-inner">
     <div className="carousel-item active">
+      
       <img src="./taxi3.png" className="d-block w-100" alt="..." />
     </div>
     <div className="carousel-item">
@@ -49,82 +50,93 @@ const Prin =() => {
 
         
         <div className="hola">
-        <div className="container marketing">
-  {/* Three columns of text below the carousel */}
-  <div className="row">
-    <div className="col-lg-4">
-      
+        <>
+  <hr className="featurette-divider" />
+  <div className="row featurette">
+    <div className="col-md-7">
+      <h2 className="featurette-heading">
+        Nuestros Descuentos <span className="text-muted"> Descuentos todo el semestre</span>
+      </h2>
+      <p className="lead">
+        Aprovecha el descuento exclusivo de noviembre y prefierenos.
+      </p>
+    </div>
+    <div className="col-md-5">
     <img
-        className="bd-placeholder-img rounded-circle"
-        width={200}
-        height={200}
-        src="./taxi1.png"
+        className="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
+        width={500}
+        height={500}
+        src="./taxi2.png"
+        xmlns="http://www.w3.org/2000/svg"
         role="img"
-        aria-label="Placeholder: 140x140"
+        aria-label="Placeholder: 500x500"
         preserveAspectRatio="xMidYMid slice"
         focusable="false"
       />
-      <h2 className="fw-normal">Heading</h2>
-      <p>
-        Some representative placeholder content for the three columns of text
-        below the carousel. This is the first column.
-      </p>
-      <p>
-        <a className="btn btn-secondary" href="#">
-          View details »
-        </a>
-      </p>
     </div>
-    {/* /.col-lg-4 */}
-    <div className="col-lg-4">
-    <img
-        className="bd-placeholder-img rounded-circle"
-        width={200}
-        height={200}
-        src="./taxi1.png"
-        role="img"
-        aria-label="Placeholder: 140x140"
-        preserveAspectRatio="xMidYMid slice"
-        focusable="false"
-      />
-      
-      <h2 className="fw-normal">Heading</h2>
-      <p>
-        Another exciting bit of representative placeholder content. This time,
-        we've moved on to the second column.
-      </p>
-      <p>
-        <a className="btn btn-secondary" href="#">
-          View details »
-        </a>
-      </p>
-    </div>
-    {/* /.col-lg-4 */}
-    <div className="col-lg-4">
-      <img
-        className="bd-placeholder-img rounded-circle"
-        width={200}
-        height={200}
-        src="./taxi1.png"
-        role="img"
-        aria-label="Placeholder: 140x140"
-        preserveAspectRatio="xMidYMid slice"
-        focusable="false"
-      />
-      <h2 className="fw-normal">Conductor 1</h2>
-      <p>
-        Le gustan las monas chinas.
-      </p>
-      <p>
-        <a className="btn btn-primary "  href="#">
-          View details »
-        </a>
-      </p>
-    </div>
-    {/* /.col-lg-4 */}
   </div>
-  {/* /.row */}
-</div>
+  <hr className="featurette-divider" />
+  <div className="row featurette">
+    <div className="col-md-7 order-md-2">
+      <h2 className="featurette-heading">
+        Nuestros Servicios<span className="text-muted"> Diferentes servicios a tu alcance...</span>
+      </h2>
+      <p className="lead">
+         Transporte al aeropuerto 
+         </p>
+         <p className="lead">Vajes de turismo</p>
+         <p className="lead">Viajes Regionales</p>
+         <p className="lead">Traslado de Encomiendas</p>
+         <p className="lead">Servicios para Empresa</p>
+      
+    </div>
+    <div className="col-md-5 order-md-1">
+    <img
+        className="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
+        width={500}
+        height={500}
+        src="./taxi3.png"
+        xmlns="http://www.w3.org/2000/svg"
+        role="img"
+        aria-label="Placeholder: 500x500"
+        preserveAspectRatio="xMidYMid slice"
+        focusable="false"
+      />
+    </div>
+  </div>
+  <hr className="featurette-divider" />
+  <div className="row featurette">
+    <div className="col-md-7">
+      <h2 className="featurette-heading">
+        Nuestros automoviles<span className="text-muted">  </span>
+      </h2>
+      <p className="lead">
+        Contamos con una amplia flota de vehiculos que se ajustan a todas las necesidades de nuestros clientes.
+        Nuestra flota se compone por SUV,las cuales son ideales para viajes donde se requiere espacio y comodidad ademas de una gran capacidad de almacenar maletas.
+        Tambien automoviles particulares para ofrecer comodidad y rapidez para los viajes, etc...
+        
+      </p>
+    </div>
+    <div className="col-md-5">
+      <img
+        className="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
+        width={500}
+        height={500}
+        src="./taxi33.png"
+        xmlns="http://www.w3.org/2000/svg"
+        role="img"
+        aria-label="Placeholder: 500x500"
+        preserveAspectRatio="xMidYMid slice"
+        focusable="false"
+      />
+      
+    </div>
+  </div>
+  <hr className="featurette-divider" />
+</>
+       
+
+        
 
           
 
@@ -158,10 +170,11 @@ const Prin =() => {
                     <div className="box">
                       <h2>SOBRE NOSOTROS</h2>
                       <p>
-                        Bienvenidos a trasportes Jcu somos una empresa dedicada al transporte de weones
+                      Bienvenidos a trasportes Jcu somos una empresa dedicada al
+                      transporte privado y particular.
                       </p>
                       <p>
-                        Grande Colocolo
+                        Contactanos al +56990201831
                       </p>
                     </div>
                     <div className="box">
@@ -170,7 +183,7 @@ const Prin =() => {
                         <a href="#" className="fa fa-facebook" />
                         <a href="https://www.instagram.com/_nxred._/" className="fa fa-instagram" />
                         <a href="#" className="fa fa-twitter" />
-                        <a href="#" className="fa fa-youtube" />
+                        <a href="https://www.youtube.com/watch?v=-Lp-tMLPE-o" className="fa fa-youtube" />
                       </div>
                     </div>
                   </div>

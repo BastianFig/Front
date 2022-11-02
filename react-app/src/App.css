@@ -60,9 +60,9 @@
 */
 
 
-.formulario .card-group{
+.container .chao .footer{
   margin-top: 60px;
-  position: relative;
+  position: center;
 
 }
 .container{
@@ -83,19 +83,18 @@
 
 
 
-.container .formulario{
-  padding: 20px;
+.basty .chao{
+
+  margin-top: 40px;
 
 }
 
-.container .formulario .title{
+.container .title{
   position: relative;
   font-size: 27px;
   font-weight: 600;
   margin-top: 10px;
   
-  
-
 }
 
 

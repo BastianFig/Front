@@ -127,10 +127,12 @@ const Formu =() => {
                     <div className="box">
                       <h2>SOBRE NOSOTROS</h2>
                       <p>
-                        Bienvenidos a trasportes Jcu somos una empresa dedicada al transporte de weones
+                      Bienvenidos a trasportes Jcu somos una empresa dedicada al
+                      transporte privado y particular.
                       </p>
+                      Contactanos al +56990201831
                       <p>
-                        Grande Colocolo
+                        
                       </p>
                     </div>
                     <div className="box">
