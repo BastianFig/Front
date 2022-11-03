@@ -1,21 +1,15 @@
+import { EditAttributes } from "@mui/icons-material";
 import React, { useState } from "react";
 import { FormImput, FormImput2 } from "./formImput";
 
-function ViajeStake() {
+function Edit() {
   const [formValues, setFromValues] = useState({
-    date: "",
-    direccionOrigen: "",
-    direccionDestino: "",
-    Hinicio: "",
-    Htermino: "",
-    nombreEmpresa: "",
-    nombreStake: "",
-    nombreRepre: "",
+    nombre: "",
+    rut: "",
     contacto: "",
-    n_pasajeros: "",
-    n_maletas: "",
-    t_equi: "",
-    extra: "",
+    username: "",
+    password: "",
+    detalles: "",
   });
 
   const onSubmit = (event) => {
@@ -29,114 +23,91 @@ function ViajeStake() {
   };
 
   return (
-    <div className="basty">
-      <div className="container">
-        <span className="title">Pedir Viaje</span>
-        <from className="row g-3">
-          <FormImput2
-            label="Nombre Empresa"
-            type="text"
-            name="nombreEmpresa"
-            onChange={handleChange}
-          />
-
-          <FormImput2
-            label="Nombre Stake Holder"
-            type="text"
-            name="nombreStake"
-            onChange={handleChange}
-          />
-
-          <FormImput2
-            label="Nombre del Representante"
-            type="text"
-            name="nombreRepre"
-            onChange={handleChange}
-          />
-
-          <FormImput
-            label="Fecha"
-            type="text"
-            name="date"
-            onChange={handleChange}
-          />
-
-          <FormImput
-            label="Contacto"
-            type="text"
-            name="contacto"
-            onChange={handleChange}
-          />
-
-          <FormImput
-            label="Direccion Origen"
-            type="text"
-            name="direccionOrigen"
-            onChange={handleChange}
-          />
-
-          <FormImput
-            label="Direccion Destino"
-            type="text"
-            name="direccionDestino"
-            onChange={handleChange}
-          />
-
-          <FormImput
-            label="Hora Inicio"
-            type="text"
-            name="Hinicio"
-            onChange={handleChange}
-          />
-
-          <FormImput
-            label="Hore Termino"
-            type="text"
-            name="Htermino"
-            onChange={handleChange}
-          />
-
-          <FormImput
-            label="Numero de maletas"
-            type="text"
-            name="n_maletas"
-            onChange={handleChange}
-          />
-
-          <FormImput
-            label="Numero de Pasajeros"
-            type="text"
-            name="n_pasajeros"
-            onChange={handleChange}
-          />
-
-          <div className="col-12">
-            <label htmlFor="inputState" className="form-label">
-              Tamaño de maletas
-            </label>
-            <select id="inputState" className="form-select">
-              <option selected=""></option>
-              <option> Pequeña </option>
-              <option> Mediana </option>
-              <option> Grande </option>
-            </select>
+    <div className="Vodka">
+      <div className="container rounded bg-white mt-5 mb-5">
+        <div className="row">
+          <div className="col-md-3 border-right">
+            <div className="d-flex flex-column align-items-center text-center p-3 py-5">
+              <img
+                className="rounded-circle mt-5"
+                width="150px"
+                src="https://st3.depositphotos.com/15648834/17930/v/600/depositphotos_179308454-stock-illustration-unknown-person-silhouette-glasses-profile.jpg"
+              />
+              <span className="font-weight-bold">StakeHolder1</span>
+              <span className="text-black-50">StakeHolder@mail.com.my</span>
+              <span> </span>
+            </div>
           </div>
+          <div className="col-md-5 border-right">
+            <div className="p-3 py-5">
+              <div className="d-flex justify-content-between align-items-center mb-3">
+                <h4 className="text-right">Editar Perfil</h4>
+              </div>
+              <div className="row mt-2">
+                <FormImput2
+                  label="Nombre Empresa"
+                  type="text"
+                  name="nombre"
+                  placeholder="nombre"
+                  onChange={handleChange}
+                />
+              </div>
+              <div className="row mt-3">
+                <FormImput2
+                  label="Rut"
+                  type="text"
+                  name="rut"
+                  onChange={handleChange}
+                  placeholder="Ingrese Rut"
+                />
 
-          <input
-            type="text"
-            class="form-control"
-            placeholder="Campo de texto"
-          ></input>
+                <FormImput2
+                  label="Numero de contacto"
+                  type="text"
+                  name="contacto"
+                  onChange={handleChange}
+                  placeholder="Ingrese numero de contacto"
+                />
 
-          <div className="col-12">
-            <button className="btn btn-primary" onClick={onSubmit}>
-              Enviar
-            </button>
+                <FormImput2
+                  label="Nombre de Usuario"
+                  type="text"
+                  name="username"
+                  onChange={handleChange}
+                  placeholder="Nombre de usuario"
+                />
+
+                <FormImput2
+                  label="Contraseña"
+                  type="text"
+                  name="password"
+                  onChange={handleChange}
+                  placeholder="contraseña"
+                />
+              </div>
+
+              <FormImput2
+                label="Detalles adicionales"
+                type="text"
+                name="detalles"
+                onChange={handleChange}
+                placeholder=""
+              />
+
+              <div className="mt-5 text-center">
+                <button
+                  className="btn btn-primary profile-button"
+                  type="button"
+                  onClick={onSubmit}
+                >
+                  Guardar Cambios
+                </button>
+              </div>
+            </div>
           </div>
-        </from>
+        </div>
       </div>
     </div>
   );
 }
-
-export default ViajeStake;
+export default Edit;
